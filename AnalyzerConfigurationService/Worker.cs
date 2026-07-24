@@ -9,6 +9,10 @@ namespace AnalyzerConfigurationService
         private readonly AnalyzerManager analyzerManager;
         private AnalyzerSettings? analyzerSettings;
 
+        private readonly List<Analyzer> analyzersStartList = new();
+
+        public string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "configs"); 
+
         public Worker(AnalyzerManager analyzerManager)
         {
             this.analyzerManager = analyzerManager;
@@ -19,18 +23,59 @@ namespace AnalyzerConfigurationService
         /// </summary>
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            // 1. Первичная загрузка всех конфигураций
+            LoadAllAnalyzers();
+
+            // 2. Запускаем все анализаторы
+            await StartAllAnalyzersAsync(stoppingToken);
+
+            // 3. Настраиваем мониторинг папки
+            StartWatching();
+
             try
             {
                 // чтение настроек анализатора из json
                 string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AnalyzerConfiguration.json");
                 analyzerSettings = GetSettingsFromJson(configPath);
 
+                // создаем объект анализатора и запускаем его
+                Analyzer analyzerToRun = analyzerManager.CreateAnalyzer(analyzerSettings);
+                await analyzerToRun.StartAsync();
+
+                // Ожидаем сигнал остановки, не расходуя ресурсы
+                await Task.Delay(Timeout.Infinite, stoppingToken);
             }
             catch (Exception ex)
             {
                 File.WriteAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "error.log"), ex.ToString());
             }
 
+        }
+
+        /// <summary>
+        /// Загрузка всех имеющихся конфигураций анализаторов (файлы с настройками json)
+        /// </summary>
+        private void LoadAllAnalyzers()
+        {
+            var files = Directory.GetFiles(configPath, "*.json");
+            foreach (var file in files) 
+            {
+                Console.WriteLine(file);
+                try
+                {
+                    analyzerSettings = GetSettingsFromJson(file);
+                    // Проверяем, должен ли быть запущен анализатор
+                    if (!analyzerSettings.activeStatus)
+                    {
+                        Console.WriteLine($"Анализатор {analyzerSettings.analyzerName} отключён (ActiveStatus = {analyzerSettings.activeStatus})");
+                        continue;
+                    }
+                }
+                catch (Exception ex) 
+                {
+
+                }
+            }
         }
 
         /// <summary>
