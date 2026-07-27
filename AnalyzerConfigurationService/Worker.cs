@@ -1,3 +1,4 @@
+using AnalyzerConfigurationService.Interfaces;
 using AnalyzerConfigurationService.Models;
 using System.Text.Json;
 
@@ -9,7 +10,12 @@ namespace AnalyzerConfigurationService
         private readonly AnalyzerManager analyzerManager;
         private AnalyzerSettings? analyzerSettings;
 
-        private readonly List<Analyzer> analyzersStartList = new();
+        //private readonly List<Analyzer> analyzersStartList = new();
+        //private readonly List<AnalyzerSettings> analyzersSettingsList; // список настроек, которые были десериализованы из json файлов конфигурации
+        
+        private readonly Dictionary<string, IAnalyzer> activeAnalyzers = new(); // словарь с активными анализаторами, для перезапуска
+
+        private FileSystemWatcher watcher;
 
         public string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "configs"); 
 
@@ -23,14 +29,14 @@ namespace AnalyzerConfigurationService
         /// </summary>
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            // 1. Первичная загрузка всех конфигураций
+            // 1. Первичная загрузка всех имеющихся конфигураций анализаторов
             LoadAllAnalyzers();
 
             // 2. Запускаем все анализаторы
-            await StartAllAnalyzersAsync(stoppingToken);
+            await analyzerManager.StartAllAsync();
 
             // 3. Настраиваем мониторинг папки
-            StartWatching();
+            //StartWatching();
 
             try
             {
@@ -61,20 +67,53 @@ namespace AnalyzerConfigurationService
             foreach (var file in files) 
             {
                 Console.WriteLine(file);
+                var jsonConfigName = Path.GetFileNameWithoutExtension(file); // получаем название файла без расширения
+
                 try
                 {
                     analyzerSettings = GetSettingsFromJson(file);
+
                     // Проверяем, должен ли быть запущен анализатор
                     if (!analyzerSettings.activeStatus)
                     {
                         Console.WriteLine($"Анализатор {analyzerSettings.analyzerName} отключён (ActiveStatus = {analyzerSettings.activeStatus})");
                         continue;
                     }
+                    else
+                    {
+                        Console.WriteLine($"Настройки анализатора {analyzerSettings.analyzerName} успешно прочитаны. (ActiveStatus = {analyzerSettings.activeStatus})");
+                        // Создаем объекты анализаторов
+                        analyzerManager.CreateAnalyzer(analyzerSettings);
+                        /*
+                        if (analyzersSettingsList.Contains(analyzerSettings))
+                        {
+                            Console.WriteLine($"Дублирование настроек");
+                        }
+                        else
+                        {
+                            analyzersSettingsList.Add(analyzerSettings);
+                        }  
+                        */
+                    }
                 }
                 catch (Exception ex) 
                 {
-
+                    Console.WriteLine($"{ex}");
                 }
+            }
+        }
+
+        /// <summary>
+        /// Перезагрузка анализатора, после изменения или добавления файла конфигурации json
+        /// </summary>
+        private async Task ReloadAnalyzerAsync(string filePath, WatcherChangeTypes changeType)
+        {
+            var jsonName = Path.GetFileNameWithoutExtension(filePath);
+
+            // Если файл изменён или создан – перезагружаем
+            if (changeType == WatcherChangeTypes.Changed || changeType == WatcherChangeTypes.Created)
+            {
+                 if(analyzerManager.)
             }
         }
 
@@ -123,6 +162,24 @@ namespace AnalyzerConfigurationService
                 throw;
             }
 
+        }
+
+        /// <summary>
+        /// Мониторниг папки с конфигурациями для анализаторов
+        /// </summary>
+        private void StartWatching()
+        {
+            watcher = new FileSystemWatcher(configPath, "*.json");
+            watcher.Created += ConfigFileChanged;
+            watcher.Changed += ConfigFileChanged;
+            watcher.Deleted += ConfigFileDeleted;
+            watcher.Renamed += ConfigFileRenamed;
+            watcher.EnableRaisingEvents = true;
+        }
+
+        private void ConfigFileChanged(object sender, RenamedEventArgs e)
+        {
+            
         }
     }
 }

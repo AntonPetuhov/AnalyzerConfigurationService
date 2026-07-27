@@ -37,6 +37,7 @@ namespace AnalyzerConfigurationService
         {
             foreach (var analyzer in analyzersList)
             {
+                Console.WriteLine($"Запуск прибора: {analyzer}");
                 // добавить проверку activeStatus
                 await analyzer.StartAsync();
             }
@@ -58,6 +59,14 @@ namespace AnalyzerConfigurationService
                 {
                     analyzer.Dispose(); // переиспользовать объект анализатора будет нельзя, только создать новый, тк освобождаем ресурсы
                 }
+            }
+        }
+
+        public Analyzer GetAnaFromList(string name)
+        {
+            foreach (var analyzer in analyzersList)
+            {
+                if(analyzer.analyzerSettings.)
             }
         }
 
