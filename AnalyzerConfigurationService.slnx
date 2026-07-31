@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/drivers/">
+    <Project Path="Sysmex cs2000i/Sysmex cs2000i.csproj" Id="e9b8e030-5d69-49ae-a245-67365ad825ef" />
+  </Folder>
+  <Project Path="AnalyzerConfigurationService.Host/AnalyzerConfigurationService.Host.csproj" Id="12484b1a-1784-470e-809f-b6d0c22f2525" />
   <Project Path="AnalyzerConfigurationService/AnalyzerConfigurationService.csproj" />
 </Solution>

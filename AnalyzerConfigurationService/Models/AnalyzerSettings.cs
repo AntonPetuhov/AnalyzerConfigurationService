@@ -14,7 +14,7 @@ namespace AnalyzerConfigurationService.Models
         public string? analyzerId { get; set; }                 // Уникальный ID прибора
         public required string analyzerName { get; set; }       // Уникальный ID прибора
         public required string connectionType { get; set; }     // "TCPIP", "Serial", "File"
-        public string? ipAddress { get; set; }                  // IP-адрес, на котором слушаем (0.0.0.0)
+        public string? ipAddress { get; set; }                  // IP-адрес, на котором слушаем
         public int port { get; set; }                           // Порт для TCP/IP
         public required bool isdll { get; set; }                // подключен с помощью dll?
         public string? dllPath { get; set; }                    // Путь к dll с реализацией протокола

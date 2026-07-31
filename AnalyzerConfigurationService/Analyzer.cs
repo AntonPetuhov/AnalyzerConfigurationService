@@ -308,10 +308,7 @@ namespace AnalyzerConfigurationService
             cts?.Dispose();
         }
 
-        public Analyzer GetAnalyzerByName(string name)
-        {
-            if(ana)
-        }
+
 
     }
 }

@@ -9,14 +9,10 @@ namespace AnalyzerConfigurationService
     {
         private readonly AnalyzerManager analyzerManager;
         private AnalyzerSettings? analyzerSettings;
-
-        //private readonly List<Analyzer> analyzersStartList = new();
-        //private readonly List<AnalyzerSettings> analyzersSettingsList; // список настроек, которые были десериализованы из json файлов конфигурации
         
-        private readonly Dictionary<string, IAnalyzer> activeAnalyzers = new(); // словарь с активными анализаторами, для перезапуска
+        private readonly Dictionary<string, IAnalyzerDriver> activeAnalyzers = new(); // словарь с активными анализаторами, для перезапуска
 
         private FileSystemWatcher watcher;
-
         public string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "configs"); 
 
         public Worker(AnalyzerManager analyzerManager)
@@ -29,24 +25,16 @@ namespace AnalyzerConfigurationService
         /// </summary>
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            // 1. Первичная загрузка всех имеющихся конфигураций анализаторов
-            LoadAllAnalyzers();
-
-            // 2. Запускаем все анализаторы
-            await analyzerManager.StartAllAsync();
-
-            // 3. Настраиваем мониторинг папки
-            //StartWatching();
-
             try
             {
-                // чтение настроек анализатора из json
-                string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AnalyzerConfiguration.json");
-                analyzerSettings = GetSettingsFromJson(configPath);
+                // 1. Первичная загрузка всех имеющихся конфигураций анализаторов
+                LoadAllAnalyzers();
 
-                // создаем объект анализатора и запускаем его
-                Analyzer analyzerToRun = analyzerManager.CreateAnalyzer(analyzerSettings);
-                await analyzerToRun.StartAsync();
+                // 2. Запускаем все анализаторы
+                await analyzerManager.StartAllAsync();
+
+                // 3. Настраиваем мониторинг папки
+                //StartWatching();
 
                 // Ожидаем сигнал остановки, не расходуя ресурсы
                 await Task.Delay(Timeout.Infinite, stoppingToken);
@@ -83,17 +71,6 @@ namespace AnalyzerConfigurationService
                     {
                         Console.WriteLine($"Настройки анализатора {analyzerSettings.analyzerName} успешно прочитаны. (ActiveStatus = {analyzerSettings.activeStatus})");
                         // Создаем объекты анализаторов
-                        analyzerManager.CreateAnalyzer(analyzerSettings);
-                        /*
-                        if (analyzersSettingsList.Contains(analyzerSettings))
-                        {
-                            Console.WriteLine($"Дублирование настроек");
-                        }
-                        else
-                        {
-                            analyzersSettingsList.Add(analyzerSettings);
-                        }  
-                        */
                     }
                 }
                 catch (Exception ex) 
@@ -113,7 +90,7 @@ namespace AnalyzerConfigurationService
             // Если файл изменён или создан – перезагружаем
             if (changeType == WatcherChangeTypes.Changed || changeType == WatcherChangeTypes.Created)
             {
-                 if(analyzerManager.)
+                 
             }
         }
 
@@ -164,6 +141,7 @@ namespace AnalyzerConfigurationService
 
         }
 
+        /*
         /// <summary>
         /// Мониторниг папки с конфигурациями для анализаторов
         /// </summary>
@@ -176,10 +154,7 @@ namespace AnalyzerConfigurationService
             watcher.Renamed += ConfigFileRenamed;
             watcher.EnableRaisingEvents = true;
         }
+        */
 
-        private void ConfigFileChanged(object sender, RenamedEventArgs e)
-        {
-            
-        }
     }
 }

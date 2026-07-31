@@ -62,13 +62,6 @@ namespace AnalyzerConfigurationService
             }
         }
 
-        public Analyzer GetAnaFromList(string name)
-        {
-            foreach (var analyzer in analyzersList)
-            {
-                if(analyzer.analyzerSettings.)
-            }
-        }
 
     }
 }

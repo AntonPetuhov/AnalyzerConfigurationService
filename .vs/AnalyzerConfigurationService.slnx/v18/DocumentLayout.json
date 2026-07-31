@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12484B1A-1784-470E-809F-B6D0C22F2525}|AnalyzerConfigurationService.Host\\AnalyzerConfigurationService.Host.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice.host\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12484B1A-1784-470E-809F-B6D0C22F2525}|AnalyzerConfigurationService.Host\\AnalyzerConfigurationService.Host.csproj|solutionrelative:analyzerconfigurationservice.host\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\analyzermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\analyzermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\ianalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\ianalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\sysmex cs2000i\\sysmexcs2000driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|solutionrelative:sysmex cs2000i\\sysmexcs2000driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\itcphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\itcphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\services\\tcphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\services\\tcphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\sysmex cs2000i\\resultshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|solutionrelative:sysmex cs2000i\\resultshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\sysmex cs2000i\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9B8E030-5D69-49AE-A245-67365AD825EF}|Sysmex cs2000i\\Sysmex cs2000i.csproj|solutionrelative:sysmex cs2000i\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|solutionrelative:analyzerconfigurationservice\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FBB24CA-FF13-90D6-5B45-DDDEA11799BA}|AnalyzerConfigurationService\\AnalyzerConfigurationService.csproj|c:\\users\\anton.petuhov\\source\\repos\\analyzerconfigurationservice\\analyzerconfigurationservice\\analyzerconfiguration.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,60 +66,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Services\\Logger.cs",
-              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Services\\Logger.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Services\\Logger.cs",
-              "RelativeToolTip": "AnalyzerConfigurationService\\Services\\Logger.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService.Host\\Class1.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService.Host\\Class1.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService.Host\\Class1.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService.Host\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T13:09:36.167Z"
+              "WhenOpened": "2026-07-28T11:33:00.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITcpHost.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\ITcpHost.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Interfaces\\ITcpHost.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\ITcpHost.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\Interfaces\\ITcpHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T09:47:28.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SysmexCS2000Driver.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\SysmexCS2000Driver.cs",
+              "RelativeDocumentMoniker": "Sysmex cs2000i\\SysmexCS2000Driver.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\SysmexCS2000Driver.cs",
+              "RelativeToolTip": "Sysmex cs2000i\\SysmexCS2000Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T09:27:57.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Program.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Program.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Program.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:51:39.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCPHost.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Services\\TCPHost.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Services\\TCPHost.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Services\\TCPHost.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\Services\\TCPHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T07:49:22.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResultsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\ResultsHandler.cs",
+              "RelativeDocumentMoniker": "Sysmex cs2000i\\ResultsHandler.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\ResultsHandler.cs",
+              "RelativeToolTip": "Sysmex cs2000i\\ResultsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T07:37:11.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IAnalyzer.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\IAnalyzer.cs",
-              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Interfaces\\IAnalyzer.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\IAnalyzer.cs",
-              "RelativeToolTip": "AnalyzerConfigurationService\\Interfaces\\IAnalyzer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Title": "AnalyzerManager.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\AnalyzerManager.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\AnalyzerManager.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\AnalyzerManager.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\AnalyzerManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T11:57:04.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T09:39:40.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "IAnalyzerDriver.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\IAnalyzerDriver.cs",
               "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Interfaces\\IAnalyzerDriver.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\IAnalyzerDriver.cs",
               "RelativeToolTip": "AnalyzerConfigurationService\\Interfaces\\IAnalyzerDriver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T08:06:44.851Z"
+              "WhenOpened": "2026-07-24T08:06:44.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AnalyzerSettings.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Models\\AnalyzerSettings.cs",
               "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Models\\AnalyzerSettings.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Models\\AnalyzerSettings.cs",
               "RelativeToolTip": "AnalyzerConfigurationService\\Models\\AnalyzerSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-24T11:23:19.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Worker.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Worker.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Worker.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\Worker.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:21:35.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Analyzer.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Analyzer.cs",
+              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Analyzer.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Analyzer.cs",
+              "RelativeToolTip": "AnalyzerConfigurationService\\Analyzer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T09:57:01.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Sysmex cs2000i\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\Sysmex cs2000i\\Interfaces.cs",
+              "RelativeToolTip": "Sysmex cs2000i\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T07:36:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AnalyzerConfiguration.json",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\AnalyzerConfiguration.json",
               "RelativeDocumentMoniker": "AnalyzerConfigurationService\\AnalyzerConfiguration.json",
@@ -111,20 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Worker.cs",
-              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Worker.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Worker.cs",
-              "RelativeToolTip": "AnalyzerConfigurationService\\Worker.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T14:21:35.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "ILoggerService.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Interfaces\\ILoggerService.cs",
               "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Interfaces\\ILoggerService.cs",
@@ -133,32 +236,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T13:55:23.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Analyzer.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Analyzer.cs",
-              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\Analyzer.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\Analyzer.cs",
-              "RelativeToolTip": "AnalyzerConfigurationService\\Analyzer.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowDgBAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T09:57:01.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnalyzerManager.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\AnalyzerManager.cs",
-              "RelativeDocumentMoniker": "AnalyzerConfigurationService\\AnalyzerManager.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\AnalyzerConfigurationService\\AnalyzerConfigurationService\\AnalyzerManager.cs",
-              "RelativeToolTip": "AnalyzerConfigurationService\\AnalyzerManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T09:39:40.536Z",
-              "EditorCaption": ""
             }
           ]
         }
